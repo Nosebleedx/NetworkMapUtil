@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "iNH6NAiXLTl/pgSjRR7iaVvEQXiWmwjh4oqZJZRL/+e6iDeY0KDFAZYXu8/pRD/71PO4EdVEaMmTHjuRePhEsw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Дмитрий\\source\\repos\\NetworkMapUtil\\NetworkMapUtil.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Дмитрий\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Дмитрий\\.nuget\\packages\\nmap.net\\1.0.4\\nmap.net.1.0.4.nupkg.sha512",
+    "C:\\Users\\Дмитрий\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
