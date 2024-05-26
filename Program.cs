@@ -7,13 +7,14 @@ class Program
 	static void Main(string[] args)
 	{
 		string NmapPath = "C:\\Program Files (x86)\\Nmap\\nmap.exe";
+        Console.WriteLine(NmapPath);
 
-		try
+        try
 		{
 			var Nmap = new NmapContext();
 			Nmap.Path = NmapPath;
-			var targetHost = "192.168.0.0";
-			var targetHost1 = "10.0.0.1/24";
+			var targetHost = "192.168.0.0/24";
+			var targetHost1 = "10.0.0.1/24 - 10";
 			var targetSite = "scanme.nmap.org";
 			var target = new Target(targetSite);
 			var scanner = new Scanner(target);
@@ -31,7 +32,10 @@ class Program
 				var hostNames = host.Hostnames;
 				if(hostNames != null)
 				{
-					Console.WriteLine($"Hostname: {string.Join(", ", hostNames)}");
+					foreach (var hostName in hostNames)
+					{
+						Console.WriteLine(hostName);
+					}
 				}
 				Console.WriteLine("----------------------------");
 				Console.WriteLine("host Address: " + host.Address.ToString());

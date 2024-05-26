@@ -18,3 +18,4 @@ C:\Users\Дмитрий\source\repos\NetworkMapUtil\obj\Debug\net8.0\ref\Network
 C:\Users\Дмитрий\source\repos\NetworkMapUtil\bin\Debug\net8.0\SaltwaterTaffy.dll
 C:\Users\Дмитрий\source\repos\NetworkMapUtil\bin\Debug\net8.0\Simple.DotNMap.dll
 C:\Users\Дмитрий\source\repos\NetworkMapUtil\bin\Debug\net8.0\SaltwaterTaffy.pdb
+C:\Users\Дмитрий\source\repos\NetworkMapUtil\obj\Debug\net8.0\NetworkMapUtil.sourcelink.json
